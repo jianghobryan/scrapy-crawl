@@ -5,8 +5,8 @@ import logging
 def dbhandler():
     con = pymysql.connect(db='pachong',
                          host='localhost',
-                         user='geye',
-                         password="a242424",
+                         user='root',
+                         password="123456",
                          charset='utf8')
     return con
 class BilibiliPipeline(object):
